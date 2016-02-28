@@ -109,7 +109,6 @@ public class MySQLDataSource extends DataSource {
             e.printStackTrace();
         }
 
-        // System.out.println("getNewConnection");
         try {
 
             Class.forName("com.mysql.jdbc.Driver").newInstance();

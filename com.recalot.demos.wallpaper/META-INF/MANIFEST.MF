@@ -1,7 +1,7 @@
 Manifest-Version: 1
 Bundle-Description: Contains a servlet for the wallpaper demo
 Bundle-License: http://recalot.com/license.txt
-Bundle-SymbolicName: com.recalot.demo.wallpaper
+Bundle-SymbolicName: com.recalot.wallpaper
 Bundle-ManifestVersion: 2
 Bundle-Vendor: Recalot.com
 Bundle-DocURL: http://recalot.com/doc
@@ -13,9 +13,10 @@ Import-Package: org.osgi.framework,   com.recalot.common.communication
  ller,com.recalot.common.interfaces.template,com.recalot.common,com.re
  calot.common.log,com.recalot.views.common, com.recalot.common.interfa
  ces.model.data,flexjson.transformer,flexjson, com.recalot.common.buil
- der
+ der,com.mysql.jdbc,com.recalot.templates.base, com.recalot.common.interfaces.model.rec,com.recalot.common.context,
+ com.recalot.model.rec.context
 Export-Package: com.recalot.views.data.access;version="0.1.0"
-Bundle-Name: Recalot.com Demos - Wallpaper
+Bundle-Name: Recalot.com - Wallpaper Demos
 Bundle-Version: 0.1.0.272
 Bundle-ClassPath: resources/, src/
 Bundle-Activator: com.recalot.demos.wallpaper.Activator
